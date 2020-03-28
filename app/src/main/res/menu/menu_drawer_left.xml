@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group  android:id="@+id/g1">
+    <item
+        android:id="@+id/nav_dmv"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="车管局车辆账户管理" />
+    <item
+        android:id="@+id/nav_mycar"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="我的座驾" />
+    </group>
+    <group android:id="@+id/g2">
+    <item
+        android:id="@+id/nav_light"
+        android:icon="@drawable/ic_traffic_black_24dp"
+        android:title="交通信号灯" />
+
+    <item
+        android:id="@+id/nav_threshold"
+        android:icon="@drawable/ic_build_black_24dp"
+        android:title="设置阈值" />
+    <group  />
+    <item
+        android:id="@+id/nav_sub"
+        android:icon="@drawable/ic_directions_subway_black_24dp"
+        android:title="地铁查询" />
+    </group>
+</menu>
